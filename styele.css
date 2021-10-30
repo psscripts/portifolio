@@ -1,0 +1,20 @@
+body {
+				background: #002dff;
+}
+
+.info{
+				background: #ff1f00;
+				border-radius: 6%;
+				
+}
+
+img{
+				width: 250px;
+				height: 250px;
+				
+				border-radius: 50%;
+}
+
+
+
+
