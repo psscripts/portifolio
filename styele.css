@@ -1,3 +1,10 @@
+*{
+				margin: 10px;
+}
+
+
+
+
 body {
 				background: #002dff;
 }
@@ -5,14 +12,19 @@ body {
 .info{
 				background: #ff1f00;
 				border-radius: 6%;
+				height: 100px;
+				
+		 
 				
 }
 
 img{
 				width: 250px;
-				height: 250px;
-				
+				height: 250px;			
 				border-radius: 50%;
+				width: 250px;
+				animation-name: slid;
+				animation-duration: 2s;
 }
 
 .intro{
@@ -34,5 +46,31 @@ img{
 .git{
 				width: 50px;
 				height: 50px;
+				animation-name: slid;
+				animation-duration: 3s;
 				
+}
+
+
+
+
+@keyframes slid {
+				from {
+								opacity: 0:
+				}
+				
+				to {
+								opacity: 4;
+				}
+}
+
+
+
+
+
+@media (max-width: 800px) {
+				info {
+								width: 700px;
+								background: #4615ff;
+				}
 }
