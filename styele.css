@@ -7,12 +7,14 @@
 
 body {
 				background: #002dff;
+				font-family: Arial;
+				font-size: 25px;
 }
 
 .info{
 				background: #ff1f00;
 				border-radius: 6%;
-				height: 100px;
+				height: 250px;
 				
 		 
 				
